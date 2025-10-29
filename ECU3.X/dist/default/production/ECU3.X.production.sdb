@@ -1,0 +1,240 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"28 C:\Users\snidg\MPLABXProjects\ECU3.X\can.c
+[e E10469 _CanOpMode `uc
+e_can_op_mode_bits 224
+e_can_op_mode_normal 0
+e_can_op_mode_sleep 32
+e_can_op_mode_loop 64
+e_can_op_mode_listen 96
+e_can_op_mode_config 128
+]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"20 C:\Users\snidg\MPLABXProjects\ECU3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"68
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+"12 C:\Users\snidg\MPLABXProjects\ECU3.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"35
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"66
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"75
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+"14 C:\Users\snidg\MPLABXProjects\ECU3.X\main.c
+[v _config config `(v  1 e 1 0 ]
+"24
+[v _main main `(v  1 e 1 0 ]
+"26 C:\Users\snidg\MPLABXProjects\ECU3.X\matrix_keypad.c
+[v _scan_key scan_key `(uc  1 e 1 0 ]
+"4422 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"14803
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14915
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"15016
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"15128
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"17425
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3864 ]
+"17537
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3865 ]
+"23528
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23721
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"24159
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24274
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24336
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"24398
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"24460
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"24522
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"24584
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"24646
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"24708
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"24770
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24879
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24983
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25045
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25116
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25434
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25714
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S28 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"25758
+[s S37 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S46 . 1 `uc 1 AN10 1 0 :1:0 
+`uc 1 AN8 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S55 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S57 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S60 . 1 `S28 1 . 1 0 `S37 1 . 1 0 `S46 1 . 1 0 `S55 1 . 1 0 `S57 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES60  1 e 1 @3969 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"30188
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"36225
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"36228
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36231
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36243
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36312
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"36660
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36666
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"39180
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39183
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39243
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"20 C:\Users\snidg\MPLABXProjects\ECU3.X\main.c
+[v _len1 len1 `ui  1 e 2 0 ]
+[v _len2 len2 `ui  1 e 2 0 ]
+[v _len3 len3 `ui  1 e 2 0 ]
+[v _len4 len4 `ui  1 e 2 0 ]
+[v _len5 len5 `ui  1 e 2 0 ]
+"21
+[v _msg_id msg_id `uc  1 e 1 0 ]
+"22
+[v _speed_rx speed_rx `[8]uc  1 e 8 0 ]
+[v _gear_rx gear_rx `[8]uc  1 e 8 0 ]
+[v _temp_rx temp_rx `[8]uc  1 e 8 0 ]
+[v _rpm_rx rpm_rx `[8]uc  1 e 8 0 ]
+[v _ind_rx ind_rx `[8]uc  1 e 8 0 ]
+"24
+[v _main main `(v  1 e 1 0 ]
+{
+"61
+} 0
+"14
+[v _config config `(v  1 e 1 0 ]
+{
+"19
+} 0
+"35 C:\Users\snidg\MPLABXProjects\ECU3.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"64
+} 0
+"20 C:\Users\snidg\MPLABXProjects\ECU3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"65
+} 0
+"66 C:\Users\snidg\MPLABXProjects\ECU3.X\clcd.c
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@data data `*.32Cuc  1 p 2 2 ]
+[v clcd_print@addr addr `uc  1 p 1 4 ]
+"73
+} 0
+"75
+[v _clcd_putch clcd_putch `(v  1 e 1 0 ]
+{
+[v clcd_putch@data data `Cuc  1 p 1 wreg ]
+[v clcd_putch@data data `Cuc  1 p 1 wreg ]
+[v clcd_putch@addr addr `uc  1 p 1 2 ]
+"77
+[v clcd_putch@data data `Cuc  1 p 1 3 ]
+"79
+} 0
+"12
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@control_bit control_bit `uc  1 p 1 0 ]
+"14
+[v clcd_write@byte byte `uc  1 p 1 1 ]
+"33
+} 0
+"68 C:\Users\snidg\MPLABXProjects\ECU3.X\can.c
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+{
+[v can_receive@len len `*.30ui  1 p 1 0 ]
+[v can_receive@msg_id msg_id `*.30uc  1 p 1 1 ]
+[v can_receive@rec_data rec_data `*.30uc  1 p 1 2 ]
+"96
+} 0

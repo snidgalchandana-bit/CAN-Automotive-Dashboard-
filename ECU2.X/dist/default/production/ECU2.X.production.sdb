@@ -1,0 +1,365 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"28 C:\Users\snidg\MPLABXProjects\ECU2.X\can.c
+[e E10469 _CanOpMode `uc
+e_can_op_mode_bits 224
+e_can_op_mode_normal 0
+e_can_op_mode_sleep 32
+e_can_op_mode_loop 64
+e_can_op_mode_listen 96
+e_can_op_mode_config 128
+]
+"12 C:\Users\snidg\MPLABXProjects\ECU2.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+"51
+[v _read_adc read_adc `(us  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"20 C:\Users\snidg\MPLABXProjects\ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"99
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+"12 C:\Users\snidg\MPLABXProjects\ECU2.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"12 C:\Users\snidg\MPLABXProjects\ECU2.X\matrix_keypad.c
+[v _init_matrix_keypad init_matrix_keypad `(v  1 e 1 0 ]
+"26
+[v _scan_key scan_key `(uc  1 e 1 0 ]
+"96
+[v _read_switches read_switches `(uc  1 e 1 0 ]
+"14 C:\Users\snidg\MPLABXProjects\ECU2.X\newmain.c
+[v _config config `(v  1 e 1 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+"4422 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"14803
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14915
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"15016
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"15128
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"17425
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3864 ]
+"17537
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3865 ]
+"20963
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21075
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21167
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21279
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21391
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21469
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"21531
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+"21593
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3912 ]
+"21655
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3913 ]
+"21717
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3914 ]
+"21779
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3915 ]
+"21841
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3916 ]
+"21903
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3917 ]
+"23528
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"24770
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24879
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24983
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25045
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25116
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25434
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25505
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"25714
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S170 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"25758
+[s S179 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S188 . 1 `uc 1 AN10 1 0 :1:0 
+`uc 1 AN8 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S197 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S199 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S202 . 1 `S170 1 . 1 0 `S179 1 . 1 0 `S188 1 . 1 0 `S197 1 . 1 0 `S199 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES202  1 e 1 @3969 ]
+"25888
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26837
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"30188
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"30273
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"30399
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"30406
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"32490
+[v _ACQT0 ACQT0 `VEb  1 e 0 @32259 ]
+"32493
+[v _ACQT1 ACQT1 `VEb  1 e 0 @32260 ]
+"32496
+[v _ACQT2 ACQT2 `VEb  1 e 0 @32261 ]
+"32499
+[v _ADCS0 ADCS0 `VEb  1 e 0 @32256 ]
+"32502
+[v _ADCS1 ADCS1 `VEb  1 e 0 @32257 ]
+"32505
+[v _ADCS2 ADCS2 `VEb  1 e 0 @32258 ]
+"32514
+[v _ADFM ADFM `VEb  1 e 0 @32263 ]
+"32526
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"35499
+[v _GO GO `VEb  1 e 0 @32273 ]
+"35502
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"36225
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"36228
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36231
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36243
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36312
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"39180
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39183
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39243
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"39600
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"40350
+[v _VCFG0 VCFG0 `VEb  1 e 0 @32268 ]
+"40356
+[v _VCFG1 VCFG1 `VEb  1 e 0 @32269 ]
+"22 C:\Users\snidg\MPLABXProjects\ECU2.X\newmain.c
+[v _rpm_tx rpm_tx `[5]uc  1 e 5 0 ]
+"23
+[v _indicator_tx indicator_tx `[2]uc  1 e 2 0 ]
+"30
+[v _main main `(v  1 e 1 0 ]
+{
+"35
+[v main@RPM RPM `ul  1 a 4 60 ]
+"37
+[v main@key key `uc  1 a 1 59 ]
+"36
+[v main@ind ind `uc  1 a 1 58 ]
+"73
+} 0
+"96 C:\Users\snidg\MPLABXProjects\ECU2.X\matrix_keypad.c
+[v _read_switches read_switches `(uc  1 e 1 0 ]
+{
+[v read_switches@detection_type detection_type `uc  1 p 1 wreg ]
+[v read_switches@detection_type detection_type `uc  1 p 1 wreg ]
+"98
+[v read_switches@once once `uc  1 s 1 once ]
+[v read_switches@key key `uc  1 s 1 key ]
+"100
+[v read_switches@detection_type detection_type `uc  1 p 1 0 ]
+"119
+} 0
+"26
+[v _scan_key scan_key `(uc  1 e 1 0 ]
+{
+"94
+} 0
+"51 C:\Users\snidg\MPLABXProjects\ECU2.X\adc.c
+[v _read_adc read_adc `(us  1 e 2 0 ]
+{
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"53
+[v read_adc@reg_val reg_val `us  1 a 2 4 ]
+"51
+[v read_adc@channel channel `uc  1 p 1 wreg ]
+"56
+[v read_adc@channel channel `uc  1 p 1 6 ]
+"64
+} 0
+"20 C:\Users\snidg\MPLABXProjects\ECU2.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"65
+} 0
+"14 C:\Users\snidg\MPLABXProjects\ECU2.X\newmain.c
+[v _config config `(v  1 e 1 0 ]
+{
+"21
+} 0
+"12 C:\Users\snidg\MPLABXProjects\ECU2.X\matrix_keypad.c
+[v _init_matrix_keypad init_matrix_keypad `(v  1 e 1 0 ]
+{
+"24
+} 0
+"12 C:\Users\snidg\MPLABXProjects\ECU2.X\adc.c
+[v _init_adc init_adc `(v  1 e 1 0 ]
+{
+"49
+} 0
+"99 C:\Users\snidg\MPLABXProjects\ECU2.X\can.c
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+{
+[v can_transmit@len len `ui  1 p 2 0 ]
+[v can_transmit@msg_id msg_id `uc  1 p 1 2 ]
+[v can_transmit@data data `*.30uc  1 p 1 3 ]
+"120
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 17 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 16 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 7 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 15 ]
+"44
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 55 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 54 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 46 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S558 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S563 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S566 . 4 `l 1 i 4 0 `d 1 f 4 0 `S558 1 fAsBytes 4 0 `S563 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S566  1 a 4 40 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 34 ]
+[s S634 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S637 . 2 `s 1 i 2 0 `us 1 n 2 0 `S634 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S637  1 a 2 44 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 39 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 38 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 33 ]
+"8
+[v ___flmul@b b `d  1 p 4 21 ]
+[v ___flmul@a a `d  1 p 4 25 ]
+"205
+} 0
